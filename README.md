@@ -71,17 +71,18 @@ This project implements a **hybrid 3D terrain perception system** for lunar robo
    - Place left and right images as `left.jpg` and `right.jpg`.
 
 2. **Train or load YOLOv8 crater model:**
+   trained yolov8 segmentation model link is :https://drive.google.com/drive/folders/1IcObGvpFIN4PBNauAK999OwFoB-z6T2q?usp=sharing
    ```python
    from ultralytics import YOLO
    crater_model = YOLO('best_crater_model.pt')
 
-3. **Place SAM rock masks:**
+4. **Place SAM rock masks:**
 
     Masks should be in sam_masks/objects/mask_*.png.
 
     Rocks should have "class1" in their filename.
 
-4. **Run the script:**
+5. **Run the script:**
 
     python lunar_robo_terrain.py
 
