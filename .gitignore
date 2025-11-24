@@ -1,0 +1,5 @@
+# Ignore all .pt files (your models)
+*.pt
+
+# Optional: ignore Python virtual environment
+venv/

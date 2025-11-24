@@ -1,0 +1,7 @@
+# Robot Navigation Waypoints (75° FOV)
+# Format: WAYPOINT_ID, LATERAL_POS(m), DEPTH_POS(m), SAFETY_SCORE
+0, 0.000, 0.000, 100.0
+1, -0.667, 1.000, 52.3
+2, -1.201, 2.000, 52.3
+3, -1.478, 3.000, 52.3
+4, -1.500, 4.000, 50.2
